@@ -202,11 +202,11 @@ nav{
 .lcard:hover .larr{opacity:1;transform:scale(1)}
 
 /* TIMELINE */
-.tl{position:relative;padding-left:26px}
-.tlline{position:absolute;left:7px;top:8px;bottom:8px;width:1px;background:linear-gradient(to bottom,var(--accent),transparent)}
+.tl{position:relative;padding-left:28px}
+.tlline{position:absolute;left:7px;top:0;bottom:0;width:1px;background:linear-gradient(to bottom,var(--accent),transparent)}
 .titem{position:relative;margin-bottom:18px;opacity:0;transform:translateX(-12px);transition:opacity .48s,transform .48s}
 .titem.vis{opacity:1;transform:translateX(0)}
-.tdouter{position:absolute;left:-22px;top:6px;width:13px;height:13px;border-radius:50%;background:var(--asoft);border:1px solid var(--ring);display:flex;align-items:center;justify-content:center}
+.tdouter{position:absolute;left:-28px;top:50%;transform:translateY(-50%);width:13px;height:13px;border-radius:50%;background:var(--asoft);border:1px solid var(--ring);display:flex;align-items:center;justify-content:center}
 .tdinner{width:5px;height:5px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px var(--glow)}
 .tc{padding:13px 14px;border-radius:18px}
 .tyr{font-family:'DM Mono',monospace;font-size:.63rem;color:var(--accent);letter-spacing:2px;margin-bottom:4px}
@@ -223,7 +223,7 @@ nav{
   .cbtn{padding:4px 10px;font-size:.62rem}
   .sec{padding:72px 10px 28px}
   .tl{padding-left:22px}
-  .tdouter{left:-19px}
+  .tdouter{left:-18px}
   .tc{padding:11px 12px}
   .inner{max-width:100%}
 }
